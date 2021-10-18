@@ -1,0 +1,28 @@
+{
+  "name": "min-egg",
+  "version": "1.0.0",
+  "description": "min-egg",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1391020381/min-egg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1391020381/min-egg/issues"
+  },
+  "homepage": "https://github.com/1391020381/min-egg#readme",
+  "dependencies": {
+    "koa": "^2.13.3",
+    "koa-router": "^10.1.1",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4"
+  }
+}
