@@ -51,5 +51,5 @@ router.get('/', function (ctx, next) { return __awaiter(void 0, void 0, void 0, 
 }); });
 app.use(router.routes());
 app.listen(3000, '127.0.0.1', function () {
-    console.log('服务器在运行');
+    console.log("\u670D\u52A1\u5668\u5728\u8FD0\u884C:http://localhost:3000");
 });
