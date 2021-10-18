@@ -4,7 +4,7 @@
   "description": "min-egg",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && NODE_ENV=development node ./dist/app.js ",
+    "start": "tsc && cross-env NODE_ENV=development node ./dist/app.js ",
     "dev": "./node_modules/nodemon/bin/nodemon.js"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@types/koa": "^2.13.4",
-    "@types/koa-router": "^7.4.4"
+    "@types/koa-router": "^7.4.4",
+    "cross-env": "^7.0.3"
   }
 }
